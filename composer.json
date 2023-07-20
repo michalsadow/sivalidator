@@ -1,0 +1,29 @@
+{
+  "name": "przeslijmi/sivalidator",
+  "description": "PHP library for validation of data types.",
+  "version": "v2.2.3",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karol Nowakowski",
+      "email": "przeslijmi@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/przeslijmi/sexceptions"
+    }
+  ],
+  "require": {
+    "php" : "^7|^8",
+    "przeslijmi/sexceptions": ">=1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Przeslijmi\\Sivalidator\\": "src/",
+      "Przeslijmi\\Sexceptions\\": "vendor/przeslijmi/sexceptions/src/"
+    }
+  }
+}
